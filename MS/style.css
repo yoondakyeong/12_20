@@ -1,0 +1,417 @@
+
+
+
+		div{box-sizing: border-box}
+
+		*{text-align: center;
+		  margin: 0;
+		  padding: 0;
+		}
+		
+		html{
+			overflow-x: hidden;
+			overflow-y: hidden;
+			background-color: #fff87d;
+			background-image: url('../mainimg/backkk.png');
+		
+			
+			}
+
+			
+
+/*화면비율맞ㅊ귀*/
+		#wholewrap{
+			position: absolute;
+			top:50%;
+			left:50%;
+			transform: translate(-50%,-50%);
+			width: 1004px;
+			height: 604px;
+			background-color: white;
+			border:2px solid black;
+			
+
+		}
+		#Headermainwrap{
+			position: relative;
+			width: 800px;
+			float: left;
+		}
+
+
+
+		#logoHiname{
+			padding-top: 25px;
+			width: 75%;
+			cursor: pointer;
+		}
+		#logoHiname:hover{
+			animation : shake 0.5s;
+			animation-iteration-count: infinite;
+		}
+
+		.CHheader{
+			position: relative;
+			width: 800px;
+			height: 50px;
+			background-color: white;
+			border-bottom: 2px solid black;
+			z-index: 10;
+
+		}
+		.Cmenu{
+			position: relative;
+			width: 200px;
+			height: 600px;
+			background-color: white;
+			float: left;
+			z-index: 10;
+			border-right:2px solid black;
+
+		}
+		.Cmain{
+			position: relative;
+			width: 800px;
+			height: 550px;
+		}
+		#whiteback2{
+			position: absolute;
+			bottom: -36%;
+			background-color:white;
+			width: 800px;
+			height: 200px;
+		}
+		#whiteback{
+			position: absolute;
+			top:0;
+			width: 800px;
+			height:200px;
+			background-color: white;
+			z-index: -1;
+		}
+
+		.CFootertext{
+			position: relative;
+			width: 100%;
+			height: 50px;
+			bottom: 0;
+			border-top: 2px solid black;
+			z-index: 1;
+		}
+		.FooterText{
+			font-size: 0.7em;
+		}
+/**메뉴 버튼 꾸미기**/
+		.containermain{
+			width:100%;
+			position: relative;
+			padding-top:48px;
+			left:50%;
+			transform:translateX(-50%);
+		}
+
+		.mainButton{
+			background:black;
+			color: inherit;
+			border:none;
+			padding: 0;
+			font:inherit;
+			cursor: pointer;
+			outline: inherit;
+
+			width:80%;
+			height: 61px;
+			position: relative;
+			margin-bottom: 70px;
+			transition: .5s;
+			border-radius: 15px;
+		}
+
+/*버튼들*/
+		
+	
+
+		.menuFT{
+			width: 100%;
+			z-index: 10;
+			position: relative;
+		}
+
+		#B1page:hover {
+			background-color: #f4f42c;
+			animation : shakee 2s;
+			animation-iteration-count: infinite;
+		}
+		#B2page:hover {
+			background-color: #f2a22f;
+			animation : shakee 0.5s;
+			animation-iteration-count: infinite;
+		}
+		#B3page:hover {
+			background-color: #2561cc;
+			animation : shakee 1s;
+			animation-iteration-count: infinite;
+		}
+
+
+/**헤더 게임 이름 등 스타일 **/
+		.nameHeaderW{
+			position: relative;
+		}
+
+		.Mainleft{
+			position:absolute;
+			left:3%;
+			width: 50%;
+		}
+		.Mainright{
+			position:absolute;
+			right:3%;
+			width: 50%;
+			opacity: 0;
+		}
+		.SNHright{
+			position:relative;
+		}
+		.SNHleft{
+			position:relative;
+		}
+		.headerNGame{
+			position:absolute;
+			left:3%;
+			width: 20%;
+			transform: translate(-50%,auto);
+		}
+		.headerSNGame{
+			position:absolute;
+			right:3%;
+			width: 20%;
+		}
+
+/**메인 이미지 section1**/
+		#main #Msection1{
+			position: relative;
+			height: 100%;
+		}
+		#main #Msection1 #mainBG1{
+			position: relative;
+			width: 100%;
+		}
+		
+		#main #Msection1 .MBI1{
+			position: absolute;
+			width: 19%;
+    		top: 67%;
+    		height: auto;
+    		left: 56%;
+    		cursor: pointer;
+		}
+		#main #Msection1 .MBI2{
+			position: absolute;
+			width: 17%;
+    		top: 23%;
+    		height: auto;
+    		left: 9%;
+    		cursor: pointer;
+		}
+		#main #Msection1 .MBI3{
+			position: absolute;
+			width: 7%;
+    		top: 27%;
+    		height: auto;
+   		 	left: 45%;
+    		cursor: pointer;
+		}
+		#main #Msection1 .MBI4{
+			position: absolute;
+			width: 10%;
+    		top: 100.5%;
+    		height: auto;
+    		left: 36%;
+    		cursor: pointer;
+		}
+		#main #Msection1 .MBI5{
+			position: absolute;
+			width: 20%;
+			height: auto;
+   	 		bottom: 3%;
+    		right: 1%;
+    		cursor: pointer;
+		}
+		#main #Msection1 .MBI6{
+			position: absolute;
+			width: 18%;
+    		top: 26%;
+    		height: auto;
+    		right: 18%;
+    		cursor: pointer;
+    		z-index: 10;
+		}
+/**hover이용 색바꾸기**/
+		#main #Msection1 #mainleaf{
+			position: absolute;
+			width: 20%;
+    		top: 3%;
+    		height: auto;
+    		left: -35px;
+		}
+
+		#mainleafM{
+			position: absolute;
+			width: 20%;
+    		top: 3%;
+    		height: auto;
+    		left: -35px;
+    		opacity: 0;
+    		pointer-events: none;
+		}
+
+		#main #Msection1 #mainleaf2{
+			position: absolute;
+			width: 15%;
+    		top: 39%;
+    		height: auto;
+    		left: -41px;
+		}
+		#main #Msection1 #mainleaf2M{
+			position: absolute;
+			width: 15%;
+    		top: 39%;
+    		height: auto;
+    		left: -41px;
+    		opacity: 0;
+    		pointer-events: none;
+		}
+
+		#main #Msection1 #maintree{
+			position: absolute;
+			width: 21%;
+   		 	top: 25%;
+   		 	height: auto;
+    		right: 34px;
+		}
+		#main #Msection1 #maintree2{
+			position: absolute;
+			width: 25%;
+			height: auto;
+    		top: 6%;
+    		right: 1px;
+		}
+		.MBIG{
+			pointer-events: none;
+			opacity: 0;
+		}
+/**동물들**/
+		#ImgIEleph{
+			position: absolute;
+			width: 34%;
+    		top: 74%;
+    		right: 65%;
+    		height: auto;
+    		pointer-events: none;
+    		opacity: 0;
+		}
+		#ImgIG{
+			position: absolute;
+			width: 12%;
+    		top: 2%;
+    		height: auto;
+    		left: 28%;
+    		pointer-events: none;
+    		opacity: 0;
+		}
+		#ImgILion{
+			position: absolute;
+			width: 15%;
+			top: 28%;
+			height: auto;
+    		right: 57%;
+    		pointer-events: none;
+    		opacity: 0;
+		}
+		#ImgIMonk{
+			position: absolute;
+			width: 15%;
+			top: 11%;
+			height: auto;
+    		right: 21%;
+    		pointer-events: none;
+    		opacity: 0;
+		}
+		#ImgIS{
+			position: absolute;
+			width: 15%;
+			height: auto;
+			bottom:-29%;
+    		right: 5%;
+    		pointer-events: none;
+    		opacity: 0;
+		}
+		#ImgITiger{
+			position: absolute;
+			width: 19%;
+			height: auto;
+			top: 71%;
+    		right: 15%;
+    		pointer-events: none;
+    		opacity: 0;
+		}
+
+
+
+/**게임화면들**/
+
+
+
+/**키프레임 메인로고**/
+@keyframes shake {
+  20% { transform: translate(0px, 0px) rotate(6deg); }
+  40% { transform: translate(1px, -1px) rotate(-10deg); }
+  80% { transform: translate(-1px, -1px) rotate(20deg); }
+  100% { transform: translate(1px, -2px) rotate(-10deg); }
+}
+
+@keyframes shakee {
+  20% { transform: translate(0px, 0px) rotate(6deg); }
+  40% { transform: translate(1px, -1px) rotate(-10deg); }
+  80% { transform: translate(-1px, 1px) rotate(10deg); }
+  100% { transform: translate(0px, 0px) rotate(0deg); }
+}
+
+@keyframes imgeff {
+  from{opacity: 0.3;}to{opacity: 1;}
+}
+
+
+#audioimg11{
+	position: absolute;
+    height: 18%;
+    bottom: -113px;
+    right: 250px;
+    cursor: pointer;
+    animation : imgeff 2s;
+	animation-iteration-count: infinite;
+	animation-direction:alternate;
+}
+
+#audioimg22{
+	position: absolute;
+    height: 18%;
+    bottom: 14px;
+    right: 413px;
+    cursor: pointer;
+    animation : imgeff 4s;
+	animation-iteration-count: infinite;
+	animation-direction:alternate;
+}
+
+#audioimg33{
+	position: absolute;
+    height: 18%;
+    top: 19px;
+    right: 345px;
+    cursor: pointer;
+    animation : imgeff 1s;
+	animation-iteration-count: infinite;
+	animation-direction:alternate;
+}

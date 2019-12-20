@@ -1,0 +1,90 @@
+
+
+#game2wrap{
+  top:20px;
+ 
+}
+
+.width500px{
+  margin-top: 40px;
+          width: 780px; 
+          display: inline-block;
+        }
+        .center{
+          text-align: center;
+        }
+      
+        #menuTable{ 
+      font-size: 1.3em; 
+        }
+
+        .alignRight{ 
+          position: absolute;
+          padding: 10px;
+          font-size: 1em;
+            
+        }
+        #startBtn{
+          border: none; 
+          color: black; 
+          background-color: white; 
+          width: 118px;
+          padding: 7px; 
+          font-size: 22px;  
+          margin-bottom: 10px; 
+            border-radius: 10px;
+        }
+        #cardTable{
+          border-collapse: collapse;
+            margin-top: 16px;
+        }
+        #cardTable td{
+          border: 2px solid black; 
+          width: 129px; 
+            height: 129px; 
+          text-align: center;
+        }
+        #cardTable td img{
+          display: block;
+          max-width: 100%;
+          max-height: 100%;
+            top:50%;
+            
+        }
+        #cardTable td span{
+          font-size: 25pt; 
+          font-weight: bold; 
+          color: black; 
+          display: none;
+        }
+        #countDown{
+          background-color: white;
+            border: 2px solid black;  
+          color: black; 
+          font-size: 1.5em; 
+          font-weight: bold;
+          padding: 5px;
+            border-radius: 10px;
+        }
+        #info{
+            width: 100%; 
+          height: 100%; 
+          background-color: black; 
+          color: white; 
+          padding-top: 100px;
+            padding-bottom: 100px;
+            }
+
+          #ag{
+            border: none; 
+          color: black; 
+          background-color: white; 
+          width: 118px;
+          padding: 7px; 
+          font-size: 22px;  
+          margin-bottom: 10px; 
+            border-radius: 10px;
+            border:2px solid black;
+            margin-top: 15px;
+            opacity: 0;
+          }
